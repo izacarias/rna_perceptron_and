@@ -1,14 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package perceptron_and;
 
 /**
  *
- * @author iulisloi
+ * @author Iulisloi Zacarias
  */
 public class Neuron {
     
@@ -16,11 +10,8 @@ public class Neuron {
     private double weight;
     
     public Neuron() {
-    }
-
-    public Neuron(double value, double weight) {
-        this.value = value;
-        this.weight = weight;
+        this.value = 0;
+        this.weight = 0;
     }
 
     public double getValue() {
